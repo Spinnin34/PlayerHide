@@ -1,0 +1,66 @@
+#
+#   ██████╗██████╗ ██╗███╗  ██╗███╗  ██╗██╗███╗  ██╗
+#  ██╔════╝██╔══██╗██║████╗ ██║████╗ ██║██║████╗ ██║
+#  ╚█████╗░██████╔╝██║██╔██╗██║██╔██╗██║██║██╔██╗██║
+#   ╚═══██╗██╔═══╝ ██║██║╚████║██║╚████║██║██║╚████║
+#  ██████╔╝██║     ██║██║ ╚███║██║ ╚███║██║██║ ╚███║
+#  ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚══╝╚═╝  ╚══╝╚═╝╚═╝  ╚══╝
+#
+
+
+lang-file: 'es-kr.yml'
+
+# si es verdadero, ocultará a todos los jugadores al unirse (es decir, ocultar al jugador activado durante
+hide-on-join: true
+
+# Se pueden utilizar partículas de https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+# establecido en "NONE" para una completa invisibilidad
+particles: "NONE"
+# número de partículas mostrado, no hace nada si las partículas están configuradas en "NONE"
+particle-count: 3
+
+#
+#   ██████╗██████╗ ██╗███╗  ██╗███╗  ██╗██╗███╗  ██╗
+#  ██╔════╝██╔══██╗██║████╗ ██║████╗ ██║██║████╗ ██║
+#  ╚█████╗░██████╔╝██║██╔██╗██║██╔██╗██║██║██╔██╗██║
+#   ╚═══██╗██╔═══╝ ██║██║╚████║██║╚████║██║██║╚████║
+#  ██████╔╝██║     ██║██║ ╚███║██║ ╚███║██║██║ ╚███║
+#  ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚══╝╚═╝  ╚══╝╚═╝╚═╝  ╚══╝
+#
+
+# proporcionar un elemento para que el jugador alterne la visibilidad al unirse
+item-on-join: true
+
+# permitir a los jugadores soltar el objeto
+allow-drop: false
+
+# permitir a los jugadores mover el objeto
+allow-move: false
+
+# material, nombre, espacio del artículo y si el artículo debe estar encantado
+item:
+  name: "&bPlayerHide Stick"
+  slot: 0
+  material: STICK
+  enchanted: false
+  lore:
+    - "&6Right click &ato toggle on!"
+
+# elemento opcional que se muestra cuando se activa la opción de ocultar jugadores (es decir, los jugadores están ocultos)
+# si está deshabilitado, solo usará el elemento definido anteriormente
+item-toggled-on:
+  disabled: false
+  name: "&bPlayerHide Stick"
+  slot: 0
+  material: STICK
+  enchanted: true
+  lore:
+    - "&6Right click &ato toggle off!"
+
+#####################################################################################
+#                                                                                   #
+#                      By the Karmancos Studio team Developer                       #
+#                                                                                   #
+#####################################################################################
+
+# https://discord.gg/unCJVDGFyu Discord Soporte

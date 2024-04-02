@@ -1,0 +1,27 @@
+name: PlayersHide
+version: '1.0'
+main: p.playershide.Main
+api-version: '1.16'
+description: A simple plugin for hiding players
+softdepend: [WorldEdit, WorldGuard, PlaceholderAPI]
+author: Spinnin34
+commands:
+  playerhide:
+    description: Comando base para el complemento
+    aliases: [phide]
+permissions:
+  phide.help:
+    description: Ver la lista de comandos
+    default: op
+  phide.toggle.self:
+    description: Alternar la autovisibilidad de otros jugadores
+    default: op
+  phide.toggle.others:
+    description: Alternar la visibilidad de un jugador específico sobre otros jugadores
+    default: op
+  phide.reload:
+    description: Vuelva a cargar el complemento
+    default: op
+  phide.exempt:
+    description: Eximir a un jugador de estar oculto
+    default: op

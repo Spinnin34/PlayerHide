@@ -1,0 +1,35 @@
+#
+#   ██████╗██████╗ ██╗███╗  ██╗███╗  ██╗██╗███╗  ██╗
+#  ██╔════╝██╔══██╗██║████╗ ██║████╗ ██║██║████╗ ██║
+#  ╚█████╗░██████╔╝██║██╔██╗██║██╔██╗██║██║██╔██╗██║
+#   ╚═══██╗██╔═══╝ ██║██║╚████║██║╚████║██║██║╚████║
+#  ██████╔╝██║     ██║██║ ╚███║██║ ╚███║██║██║ ╚███║
+#  ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚══╝╚═╝  ╚══╝╚═╝╚═╝  ╚══╝
+#
+
+prefix: '§x§F§B§0§0§0§0P§x§F§B§1§2§0§9l§x§F§C§2§3§1§2a§x§F§C§3§5§1§By§x§F§D§4§7§2§4e§x§F§D§5§8§2§Dr§x§F§E§6§A§3§6H§x§F§E§7§C§3§Fi§x§F§F§8§D§4§8d§x§F§F§9§F§5§1e &7» '
+
+reload-success: ' §x§9§2§F§B§7§3ha sido reloaded.'
+reload-fail: ' §x§F§B§3§E§3§E⚠ No se pudieron cargar los archivos de configuración/mensajes. Verifique si hay errores o campos faltantes en ellos o comuníquese con el autor si cree que se trata de un error.'
+invalid-command: ' §x§F§B§3§E§3§E⚠ Comando no válido, tipo &6/phide help&c!'
+invalid-syntax: ' §x§F§B§3§E§3§E⚠ Sintaxis no válida, tipo &6/phide help&c!'
+no-permission: ' §x§F§B§3§E§3§E⚠ No tienes permiso para ejecutar este comando!'
+player-not-exist: ' §x§F§B§3§E§3§E⚠ El nombre del jugador que ingresaste no existe!'
+
+toggle-self-success: ' §x§8§E§D§E§F§BTu visibilidad de los demás ha sido cambiada a: &b%state%'
+toggle-others-success: ' §x§8§E§D§E§F§BVisibilidad para &b%player% §x§8§E§D§E§F§Bha sido cambiado a: &b%state%'
+toggle-self-fail: ' §x§F§B§3§E§3§E⚠ No se pudo alternar la visibilidad!'
+toggle-others-fail: ' §x§F§B§3§E§3§E⚠ No se pudo alternar la visibilidad para &b%player%'
+toggle-self-region-denied: ' §x§F§B§3§E§3§E⚠ No se puede alternar la visibilidad en la región actual!'
+toggle-others-region-denied: ' §x§F§B§3§E§3§E⚠ No se puede alternar la visibilidad debido a la región &b%player% &ces en!'
+
+visible-state: ' §x§B§7§F§B§7§AVisible'
+hidden-state: ' §x§F§B§3§B§3§BOculto'
+
+help-header: '                                                      &8&m+----------- §x§F§B§3§B§3§BC§x§F§C§4§8§3§Eo§x§F§C§5§4§4§1m§x§F§D§6§1§4§3m§x§F§D§6§D§4§6a§x§F§E§7§A§4§9n§x§F§E§8§6§4§Cd§x§F§F§9§3§4§Eo§x§F§F§9§F§5§1s &8&m-----------+'
+help-body: |
+  §x§F§F§9§F§5§1/phide help &7- ver la lista de comandos
+  §x§F§F§9§F§5§1/phide toggle &7- alternar la autovisibilidad de otros jugadores
+  §x§F§F§9§F§5§1/phide toggle <name> &7- alternar la visibilidad de un jugador específico sobre otros jugadores
+  §x§F§F§9§F§5§1/phide reload &7- recargar el complemento
+  &8&m+------------ §x§F§B§3§B§3§B©§x§F§C§4§9§3§ES§x§F§C§5§8§4§1p§x§F§D§6§6§4§4i§x§F§D§7§4§4§8n§x§F§E§8§2§4§Bn§x§F§E§9§1§4§Ei§x§F§F§9§F§5§1n &8&m------------+
